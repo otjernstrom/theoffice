@@ -1,0 +1,75 @@
+
+body{
+  background-image: linear-gradient(rgba(255, 138, 0, 0.10), rgba(255, 138, 0, 0.47));
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+.toppmeny {
+  list-style-type: none;
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(244, 165, 55);
+  color: black;
+}
+
+.toppmeny li {
+  float: right;
+}
+
+.toppmeny li a {
+  display: block;
+  color: black;
+  background-color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.toppmeny li a:hover {
+  background-color: #ffffff;
+  color: inherit;
+}
+#aktiv{
+  background-color: rgb(235, 141, 12);
+  color: inherit;
+}
+.innehåll {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner{
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.säsonger {
+  list-style-type: none;
+  /*padding: 0;*/
+}
+.säsonger li{
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid rgba(244, 165, 61, 0.87);
+  table-layout: fixed;
+}
+table {
+  border-collapse: collapse;
+  width: inherit;
+}
+#reklambild{
+  width: 40vw;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#topp{
+  text-align: left;
+}
